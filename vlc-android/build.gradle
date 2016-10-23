@@ -1,9 +1,5 @@
 apply plugin: 'com.android.application'
 
-apply plugin: 'maven'
-
-group = 'com.github.Ivshti'
-
 android {
     compileSdkVersion rootProject.ext.compileSdkVersion
     buildToolsVersion rootProject.ext.buildToolsVersion
