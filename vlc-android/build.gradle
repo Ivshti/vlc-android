@@ -258,7 +258,6 @@ def vlcRevision() {
     def vlc = new ByteArrayOutputStream()
     exec {
         commandLine 'git', 'rev-parse', '--short', 'HEAD'
-        workingDir '../vlc'
         standardOutput = vlc
     }
     return vlc.toString()
