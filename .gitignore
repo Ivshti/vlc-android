@@ -35,10 +35,6 @@ java-libs/appcompat/.project
 *.iml
 
 #gradle
-gradle.properties
-gradlew.bat
-gradlew
-gradle/
 .gradle/
 build/
 vlc-android/build/
